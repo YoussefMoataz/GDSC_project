@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">GDSC_first_project</string>
+    <string name="app_name">GDSC project</string>
+    <string name="my_name">Youssef Moataz</string>
+    <string name="install_my_app_now">Install my app now</string>
 </resources>

@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:text="@string/my_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -14,7 +28,7 @@
         android:layout_margin="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1"
         app:layout_constraintBottom_toTopOf="@id/text"/>
 
     <TextView
@@ -25,7 +39,7 @@
         android:textColor="#2196F3"
         android:layout_marginBottom="20dp"
         android:textStyle="bold"
-        android:text="Install my app now"
+        android:text="@string/install_my_app_now"
         app:layout_constraintTop_toBottomOf="@id/image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
