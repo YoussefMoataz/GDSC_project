@@ -28,9 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
         
         binding.text1.setOnClickListener {
-
             Toast.makeText(this, "Hello from FCAI-CU !", Toast.LENGTH_SHORT).show()
-
         }
 
     }
